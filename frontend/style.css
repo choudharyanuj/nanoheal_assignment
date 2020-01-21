@@ -31,3 +31,8 @@ body{
     height: 25px;
     width: 100px;
 }
+.own {
+    text-align: center;
+    color:yellow    ;
+    font-size: 40px;
+}
