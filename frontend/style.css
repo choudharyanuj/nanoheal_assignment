@@ -36,3 +36,11 @@ body{
     color:yellow    ;
     font-size: 40px;
 }
+#operations button{
+    margin-top:5%;
+    margin-left: 20%;
+    width: 100px;
+    height: 50px;
+    background-color: blue;
+    color: white
+}
