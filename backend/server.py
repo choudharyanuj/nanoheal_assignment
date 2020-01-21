@@ -26,7 +26,7 @@ def home():
     for item in results:
         items.append(item)
     return json.dumps(items)
-    
+
 #Add Movie
 @app.route('/addmovies',methods=['POST'])
 def addmovies():
@@ -71,7 +71,7 @@ def delete():
     return json.dumps("Delete Successfully")
 
 #Search Movie By name
-@app.route('/search')
+@app.route('/search',methods=['POST'])
 def search():
     name = request.headers.get('name')
     cursor = mysql.connection.cursor()

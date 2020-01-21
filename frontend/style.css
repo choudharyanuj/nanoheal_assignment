@@ -1,9 +1,33 @@
+body{
+    background-image: url(https://images8.alphacoders.com/969/969580.jpg);
+}
 .header{
     text-align: center;
     color: red;
     font-size: 40px;
 }
-#allmovie{
-    color: black;
-    display: grid;
+#display{
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+    margin-top: 5%;  
+}
+.description {
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    font-size: 30px;
+    color:white;
+}
+#search{ 
+    margin-left: 30px;
+    text-align: center;
+}
+#search input {
+    height: 20px;
+    width: 200px;
+}
+#search button {
+    height: 25px;
+    width: 100px;
 }
