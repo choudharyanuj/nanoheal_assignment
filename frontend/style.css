@@ -1,0 +1,9 @@
+.header{
+    text-align: center;
+    color: red;
+    font-size: 40px;
+}
+#allmovie{
+    color: black;
+    display: grid;
+}
